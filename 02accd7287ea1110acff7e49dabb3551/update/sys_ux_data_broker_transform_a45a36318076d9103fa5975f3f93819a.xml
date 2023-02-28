@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_wef.StringUtils</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>StringUtils</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "string",&#13;
+  "label": "String",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+},{&#13;
+  "name": "prepend",&#13;
+  "label": "Prepend",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+},{&#13;
+  "name": "append",&#13;
+  "label": "Append",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var prepend = input.prepend || '';
+    var append = input.append || '';
+	var string = input.string || '...';
+	
+    return prepend + string + append;
+}
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-28 08:50:26</sys_created_on>
+        <sys_id>a45a36318076d9103fa5975f3f93819a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StringUtils</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_a45a36318076d9103fa5975f3f93819a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-28 08:50:26</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=a45a36318076d9103fa5975f3f93819a"/>
+</record_update>

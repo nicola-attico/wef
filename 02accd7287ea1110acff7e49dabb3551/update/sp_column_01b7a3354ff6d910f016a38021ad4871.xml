@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">0db7a3354ff6d910f016a38021ad486e</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 12:08:35</sys_created_on>
+        <sys_id>01b7a3354ff6d910f016a38021ad4871</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sp_column_01b7a3354ff6d910f016a38021ad4871</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:08:35</sys_updated_on>
+    </sp_column>
+</record_update>

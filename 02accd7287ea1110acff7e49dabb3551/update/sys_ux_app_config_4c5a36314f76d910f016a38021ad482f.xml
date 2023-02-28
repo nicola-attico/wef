@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>Worker</description>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Worker Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-28 08:50:30</sys_created_on>
+        <sys_id>4c5a36314f76d910f016a38021ad482f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Worker Config</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_ux_app_config_4c5a36314f76d910f016a38021ad482f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-28 08:50:30</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c5a36314f76d910f016a38021ad482f"/>
+</record_update>

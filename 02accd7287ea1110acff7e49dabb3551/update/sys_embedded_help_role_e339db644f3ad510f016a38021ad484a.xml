@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_wef.mission_user" name="x_snc_wef.mission_user">a3399b644f3ad510f016a38021ad482a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-24 13:53:00</sys_created_on>
+        <sys_id>e339db644f3ad510f016a38021ad484a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a3399b644f3ad510f016a38021ad482a</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e339db644f3ad510f016a38021ad484a</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-24 13:53:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

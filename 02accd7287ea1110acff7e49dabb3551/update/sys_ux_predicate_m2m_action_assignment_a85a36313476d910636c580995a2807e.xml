@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">205a36316476d9103b9c5c447c48339c</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">205a36314b76d9101679c57994c89482</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-28 08:50:30</sys_created_on>
+        <sys_id>a85a36313476d910636c580995a2807e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_a85a36313476d910636c580995a2807e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-28 08:50:30</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

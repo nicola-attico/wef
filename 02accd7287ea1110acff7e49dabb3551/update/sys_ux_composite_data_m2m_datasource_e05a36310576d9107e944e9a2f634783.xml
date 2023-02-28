@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">ac5a3631aa76d91069f21ab21ca4c684</dataset>
+        <datasource display_value="My Requests - Requested Item Datasource">a85a36310c76d910911584407f21c284</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-28 08:50:34</sys_created_on>
+        <sys_id>e05a36310576d9107e944e9a2f634783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_e05a36310576d9107e944e9a2f634783</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-28 08:50:34</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

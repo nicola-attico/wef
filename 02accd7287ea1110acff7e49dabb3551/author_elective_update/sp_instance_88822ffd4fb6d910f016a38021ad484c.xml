@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5e62abfd4fb6d910f016a38021ad48e0</sp_column>
+        <sp_widget display_value="SimpleLoginUI">9f3719eab32003007a6de81816a8dcd1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:45:52</sys_created_on>
+        <sys_id>88822ffd4fb6d910f016a38021ad484c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sp_instance_88822ffd4fb6d910f016a38021ad484c</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:46:56</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=88822ffd4fb6d910f016a38021ad484c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WEF">02accd7287ea1110acff7e49dabb3551</application>
+        <file_path/>
+        <instance_id>97db5c26db265918b847ac44d4961972</instance_id>
+        <instance_name>wefdemo</instance_name>
+        <name>sp_instance_88822ffd4fb6d910f016a38021ad484c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">5e62abfd4fb6d910f016a38021ad48e0</sp_column><sp_widget display_value="SimpleLoginUI">9f3719eab32003007a6de81816a8dcd1</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>nicola.attico</sys_created_by><sys_created_on>2022-10-28 11:45:52</sys_created_on><sys_id>88822ffd4fb6d910f016a38021ad484c</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package><sys_policy/><sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope><sys_update_name>sp_instance_88822ffd4fb6d910f016a38021ad484c</sys_update_name><sys_updated_by>nicola.attico</sys_updated_by><sys_updated_on>2022-10-28 11:46:56</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=88822ffd4fb6d910f016a38021ad484c"/></record_update>]]></payload>
+        <payload_hash>-963513681</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8eaccd7287ea1110acff7e49dabb3552</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:46:56</sys_created_on>
+        <sys_id>7fb223314ff6d910f016a38021ad48ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1841e6aa6a50000001</sys_recorded_at>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:46:56</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b7b22331c0f6d910809d5d5c6cfe12ad</update_guid>
+        <update_guid_history>b7b22331c0f6d910809d5d5c6cfe12ad:-963513681,cc822ffde0b6d910c85fd6a25fd0794e:-507681106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5505af714ff6d910f016a38021ad48e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>19271c713ff04e4381c535e8b632b659</sys_id>
+        <sys_metadata>88822ffd4fb6d910f016a38021ad484c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_scope_delete display_value="">69811ee011744740b082191058201000</sys_scope_delete>
+        <sys_update_name>sp_instance_88822ffd4fb6d910f016a38021ad484c</sys_update_name>
+        <sys_update_version display_value="sp_instance_88822ffd4fb6d910f016a38021ad484c">7fb223314ff6d910f016a38021ad48ad</sys_update_version>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

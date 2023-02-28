@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="855b2c4d4f3a1910f016a38021ad48ad" label="x_snc_wef_m2m_Missions_Accounts" max_length="40" name="x_snc_wef_m2m_x_snc_wef_mi_x_snc_hhover" type="collection">
+        <element attributes="encode_utf8=false" label="Accounts" max_length="32" name="x_snc_hhoverlay_account" reference="x_snc_hhoverlay_account" type="reference"/>
+        <element attributes="encode_utf8=false" label="Missions" max_length="32" name="x_snc_wef_mission" reference="x_snc_wef_mission" type="reference"/>
+        <index name="index">
+            <element name="x_snc_hhoverlay_account"/>
+        </index>
+        <index name="index2">
+            <element name="x_snc_wef_mission"/>
+        </index>
+    </element>
+</database>

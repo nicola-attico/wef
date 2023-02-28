@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mission_completed</internal_name>
+        <label_cache>[{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.transaction_hash","label":"2 - transfer1_ft➛Transaction_hash","reference_display":"Transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7058502c-7b72-46cd-99e5-df48f805e06e"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.transaction_id","label":"2 - transfer1_ft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"db85fad7-fc8e-49a3-ac4c-fa9640f288eb"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.consensus_timestamp","label":"2 - transfer1_ft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.hstatus","label":"2 - transfer1_ft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.fail","label":"2 - transfer1_ft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.__dont_treat_as_error__","label":"2 - transfer1_ft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.__action_status__","label":"2 - transfer1_ft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.__action_status__","label":"1 - transfer1_nft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.__dont_treat_as_error__","label":"1 - transfer1_nft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.fail","label":"1 - transfer1_nft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.hstatus","label":"1 - transfer1_nft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.consensus_timestamp","label":"1 - transfer1_nft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.transaction_id","label":"1 - transfer1_nft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"081c0c2f-ee38-4735-b799-5c19e384440b"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.transaction_hash","label":"1 - transfer1_nft➛transaction_hash","reference_display":"transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1dab3514-a38c-4f62-a116-976f543c538e"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.__action_status__","label":"3 - transfer1_ft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.__dont_treat_as_error__","label":"3 - transfer1_ft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.fail","label":"3 - transfer1_ft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.hstatus","label":"3 - transfer1_ft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.consensus_timestamp","label":"3 - transfer1_ft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.transaction_id","label":"3 - transfer1_ft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"db85fad7-fc8e-49a3-ac4c-fa9640f288eb"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.transaction_hash","label":"3 - transfer1_ft➛Transaction_hash","reference_display":"Transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7058502c-7b72-46cd-99e5-df48f805e06e"}}]</label_cache>
+        <master_snapshot>95de48054ff61910f016a38021ad4802</master_snapshot>
+        <name>Mission completed</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7bc454894ff61910f016a38021ad480f</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:08:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>951d33744fb61910f016a38021ad48fd</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Mission completed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_951d33744fb61910f016a38021ad48fd</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=951d33744fb61910f016a38021ad48fd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=951d33744fb61910f016a38021ad48fd"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2022-11-01 07:00:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:36:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bc454894ff61910f016a38021ad480f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:03</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:7bc454894ff61910f016a38021ad480f^sys_idNOT INbe95cdf9874f1910acff7e49dabb358e"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:7bc454894ff61910f016a38021ad480f</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Nicola Attico">305a45b24f6a5110f016a38021ad480e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-11-01 07:00:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('7bc454894ff61910f016a38021ad480f');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:36:03</sys_created_on>
+        <sys_id>be95cdf9874f1910acff7e49dabb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:03</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">7bc454894ff61910f016a38021ad480f</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=951d33744fb61910f016a38021ad48fd^sys_idNOT INdc7589f9874f1910acff7e49dabb3582"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">951d33744fb61910f016a38021ad48fd</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:35:21</sys_created_on>
+        <sys_id>dc7589f9874f1910acff7e49dabb3582</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:04</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc7589f9874f1910acff7e49dabb3582"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dc7589f9874f1910acff7e49dabb3582</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:35:21</sys_created_on>
+        <sys_id>587589f9874f1910acff7e49dabb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:21</sys_updated_on>
+        <value>2022-11-01 00:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=dc7589f9874f1910acff7e49dabb3582"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=951d33744fb61910f016a38021ad48fd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=951d33744fb61910f016a38021ad48fd^sys_idNOT IN111d33744fb61910f016a38021ad48ff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>951d33744fb61910f016a38021ad48fd</id>
+        <name>Mission completed</name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:08:04</sys_created_on>
+        <sys_id>111d33744fb61910f016a38021ad48ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:08:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=111d33744fb61910f016a38021ad48ff"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=951d33744fb61910f016a38021ad48fd^sys_idNOT IN017380894fb61910f016a38021ad48a4,1fe388894fb61910f016a38021ad4834,be0e33b44fb61910f016a38021ad4815"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_ft">264f3f8d479301101cf79454836d43bd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">951d33744fb61910f016a38021ad48fd</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:35:55</sys_created_on>
+        <sys_id>017380894fb61910f016a38021ad48a4</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:18</sys_updated_on>
+        <ui_id>bfa01ec4-deed-426c-a245-04d156cf99a8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=017380894fb61910f016a38021ad48a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>017380894fb61910f016a38021ad48a4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>43e388894fb61910f016a38021ad4821</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:37:58</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">2e4f3f8d479301101cf79454836d43c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>017380894fb61910f016a38021ad48a4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>4fe388894fb61910f016a38021ad4821</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:37:58</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">ae4f3f8d479301101cf79454836d43ca</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>017380894fb61910f016a38021ad48a4</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:35:55</sys_created_on>
+        <sys_id>8d7380894fb61910f016a38021ad48a5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:22</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD624f3f8d869301109b3f97f360bb38c0","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD624f3f8d869301109b3f97f360bb38c0\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6ac383ad-ce9e-4157-b7a7-9c6c59854b12\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">a24f3f8d479301101cf79454836d43d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>017380894fb61910f016a38021ad48a4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>8fe388894fb61910f016a38021ad4820</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:49:34</sys_updated_on>
+        <value>0.0.48708666</value>
+        <variable display_value="token_id">624f3f8d479301101cf79454836d43c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>017380894fb61910f016a38021ad48a4</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>cbe388894fb61910f016a38021ad4820</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:37:58</sys_updated_on>
+        <value>50</value>
+        <variable display_value="amount">224f3f8d479301101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_264f3f8d479301101cf79454836d43bd^id=017380894fb61910f016a38021ad48a4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=017380894fb61910f016a38021ad48a4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=017380894fb61910f016a38021ad48a4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_ft">264f3f8d479301101cf79454836d43bd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">951d33744fb61910f016a38021ad48fd</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>1fe388894fb61910f016a38021ad4834</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:18</sys_updated_on>
+        <ui_id>143de049-40db-4536-bfde-9f624f198cc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fe388894fb61910f016a38021ad4834"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fe388894fb61910f016a38021ad4834</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:37:58</sys_created_on>
+        <sys_id>17e388894fb61910f016a38021ad4836</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:22</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD624f3f8d869301109b3f97f360bb38c0","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD624f3f8d869301109b3f97f360bb38c0\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6ac383ad-ce9e-4157-b7a7-9c6c59854b12\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">a24f3f8d479301101cf79454836d43d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fe388894fb61910f016a38021ad4834</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:39:50</sys_created_on>
+        <sys_id>225440c94fb61910f016a38021ad4892</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:39:50</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">ae4f3f8d479301101cf79454836d43ca</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fe388894fb61910f016a38021ad4834</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:39:50</sys_created_on>
+        <sys_id>265440c94fb61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:39:50</sys_updated_on>
+        <value>9000</value>
+        <variable display_value="amount">224f3f8d479301101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fe388894fb61910f016a38021ad4834</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:39:50</sys_created_on>
+        <sys_id>aa5440c94fb61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:39:50</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">2e4f3f8d479301101cf79454836d43c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fe388894fb61910f016a38021ad4834</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:39:50</sys_created_on>
+        <sys_id>e65440c94fb61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:39:50</sys_updated_on>
+        <value>0.0.48660653</value>
+        <variable display_value="token_id">624f3f8d479301101cf79454836d43c2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_264f3f8d479301101cf79454836d43bd^id=1fe388894fb61910f016a38021ad4834"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1fe388894fb61910f016a38021ad4834"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fe388894fb61910f016a38021ad4834"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_nft">93f0e1e5471741101cf79454836d43d3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">951d33744fb61910f016a38021ad48fd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:12:16</sys_created_on>
+        <sys_id>be0e33b44fb61910f016a38021ad4815</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:17</sys_updated_on>
+        <ui_id>ca919e1e-0cda-4bd5-ad93-e2c8f883a04a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=be0e33b44fb61910f016a38021ad4815"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be0e33b44fb61910f016a38021ad4815</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:12:17</sys_created_on>
+        <sys_id>030e33b44fb61910f016a38021ad4819</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:12:17</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">1bf0e1e5471741101cf79454836d43d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be0e33b44fb61910f016a38021ad4815</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:46:28</sys_created_on>
+        <sys_id>3bd5080d4fb61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:46:28</sys_updated_on>
+        <value>0.0.48706964</value>
+        <variable display_value="token_id">57f0e1e5471741101cf79454836d43df</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be0e33b44fb61910f016a38021ad4815</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:12:17</sys_created_on>
+        <sys_id>870e33b44fb61910f016a38021ad4819</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:12:17</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">d3f0e1e5471741101cf79454836d43db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be0e33b44fb61910f016a38021ad4815</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:12:17</sys_created_on>
+        <sys_id>c30e33b44fb61910f016a38021ad4819</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:21</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD43b98ffbb15f4110d4e113392f3899ba","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD43b98ffbb15f4110d4e113392f3899ba":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD43b98ffbb15f4110d4e113392f3899ba.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD43b98ffbb15f4110d4e113392f3899ba\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a89dc803-622a-4d46-81fe-b6b5ecc4f1c1\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">1fb98ffb475f41101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be0e33b44fb61910f016a38021ad4815</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 11:46:28</sys_created_on>
+        <sys_id>ffd5080d4fb61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 11:46:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="serial">d7f0e1e5471741101cf79454836d43e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_93f0e1e5471741101cf79454836d43d3^id=be0e33b44fb61910f016a38021ad4815"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be0e33b44fb61910f016a38021ad4815"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be0e33b44fb61910f016a38021ad4815"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=951d33744fb61910f016a38021ad48fd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_951d33744fb61910f016a38021ad48fd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_951d33744fb61910f016a38021ad48fd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_951d33744fb61910f016a38021ad48fd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_951d33744fb61910f016a38021ad48fd"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=951d33744fb61910f016a38021ad48fd^sys_idNOT IN17ee0c054ff61910f016a38021ad4890"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"17ee0c054ff61910f016a38021ad4890","name":"plan","plan_signature":null}}</plan>
+        <plan_id>951d33744fb61910f016a38021ad48fd</plan_id>
+        <snapshot>1da5413d874f1910acff7e49dabb35a7</snapshot>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:26:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17ee0c054ff61910f016a38021ad4890</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:03</sys_updated_on>
+        <trigger display_value="">7bc454894ff61910f016a38021ad480f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=951d33744fb61910f016a38021ad48fd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mission_completed</internal_name>
+        <label_cache>[{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.transaction_hash","label":"2 - transfer1_ft➛Transaction_hash","reference_display":"Transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7058502c-7b72-46cd-99e5-df48f805e06e"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.transaction_id","label":"2 - transfer1_ft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"db85fad7-fc8e-49a3-ac4c-fa9640f288eb"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.consensus_timestamp","label":"2 - transfer1_ft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.hstatus","label":"2 - transfer1_ft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.fail","label":"2 - transfer1_ft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.__dont_treat_as_error__","label":"2 - transfer1_ft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"bfa01ec4-deed-426c-a245-04d156cf99a8.__action_status__","label":"2 - transfer1_ft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.__action_status__","label":"1 - transfer1_nft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.__dont_treat_as_error__","label":"1 - transfer1_nft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.fail","label":"1 - transfer1_nft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.hstatus","label":"1 - transfer1_nft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.consensus_timestamp","label":"1 - transfer1_nft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.transaction_id","label":"1 - transfer1_nft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"081c0c2f-ee38-4735-b799-5c19e384440b"}},{"name":"ca919e1e-0cda-4bd5-ad93-e2c8f883a04a.transaction_hash","label":"1 - transfer1_nft➛transaction_hash","reference_display":"transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1dab3514-a38c-4f62-a116-976f543c538e"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.__action_status__","label":"3 - transfer1_ft➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"90bba8a1-0953-4eee-938f-565c3312ffc1"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.__dont_treat_as_error__","label":"3 - transfer1_ft➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"00499f03-2fc8-42fd-abe5-943145708713"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.fail","label":"3 - transfer1_ft➛fail","reference_display":"fail","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0482f688-ce7d-4f56-b327-0aa8944da9b4"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.hstatus","label":"3 - transfer1_ft➛hstatus","reference_display":"hstatus","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"746a3bd4-6499-4ba8-9d13-cd855a04bcc1"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.consensus_timestamp","label":"3 - transfer1_ft➛consensus_timestamp","reference_display":"consensus_timestamp","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c591bf8e-6e6a-44a6-af03-3cb9dc5386b3"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.transaction_id","label":"3 - transfer1_ft➛transaction_id","reference_display":"transaction_id","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"db85fad7-fc8e-49a3-ac4c-fa9640f288eb"}},{"name":"143de049-40db-4536-bfde-9f624f198cc2.transaction_hash","label":"3 - transfer1_ft➛Transaction_hash","reference_display":"Transaction_hash","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7058502c-7b72-46cd-99e5-df48f805e06e"}}]</label_cache>
+        <master>true</master>
+        <name>Mission completed</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Mission completed">951d33744fb61910f016a38021ad48fd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95de48054ff61910f016a38021ad4802</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=95de48054ff61910f016a38021ad4802"/>
+    <sys_variable_value action="delete_multiple" query="document_key=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=95de48054ff61910f016a38021ad4802^sys_idNOT IN3a854df9874f1910acff7e49dabb3519"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">95de48054ff61910f016a38021ad4802</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:35:47</sys_created_on>
+        <sys_id>3a854df9874f1910acff7e49dabb3519</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:36:04</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a854df9874f1910acff7e49dabb3519"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a854df9874f1910acff7e49dabb3519</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-11-09 10:35:47</sys_created_on>
+        <sys_id>f6854df9874f1910acff7e49dabb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:47</sys_updated_on>
+        <value>2022-11-01 00:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=3a854df9874f1910acff7e49dabb3519"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=95de48054ff61910f016a38021ad4802"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=95de48054ff61910f016a38021ad4802^sys_idNOT IN95de48054ff61910f016a38021ad4803"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>95de48054ff61910f016a38021ad4802</id>
+        <name>Mission completed</name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:38</sys_created_on>
+        <sys_id>95de48054ff61910f016a38021ad4803</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=95de48054ff61910f016a38021ad4803"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=95de48054ff61910f016a38021ad4802^sys_idNOT INacee88054ff61910f016a38021ad48c1,d4ee88054ff61910f016a38021ad488e,f0ee88054ff61910f016a38021ad48f1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_ft">264f3f8d479301101cf79454836d43bd</action_type>
+        <action_type_parent display_value="transfer1_ft">caeb2e60475305101cf79454836d43bb</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">95de48054ff61910f016a38021ad4802</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>acee88054ff61910f016a38021ad48c1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <ui_id>bfa01ec4-deed-426c-a245-04d156cf99a8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acee88054ff61910f016a38021ad48c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acee88054ff61910f016a38021ad48c1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>2cee88054ff61910f016a38021ad48c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:51</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">2e4f3f8d479301101cf79454836d43c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acee88054ff61910f016a38021ad48c1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>68ee88054ff61910f016a38021ad48c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:51:34</sys_updated_on>
+        <value>0.0.48708666</value>
+        <variable display_value="token_id">624f3f8d479301101cf79454836d43c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acee88054ff61910f016a38021ad48c1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>a0ee88054ff61910f016a38021ad48c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:51</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">ae4f3f8d479301101cf79454836d43ca</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acee88054ff61910f016a38021ad48c1</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>a4ee88054ff61910f016a38021ad48c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:51</sys_updated_on>
+        <value>50</value>
+        <variable display_value="amount">224f3f8d479301101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acee88054ff61910f016a38021ad48c1</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:51</sys_created_on>
+        <sys_id>ecee88054ff61910f016a38021ad48c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD624f3f8d869301109b3f97f360bb38c0","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD624f3f8d869301109b3f97f360bb38c0\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6ac383ad-ce9e-4157-b7a7-9c6c59854b12\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">a24f3f8d479301101cf79454836d43d3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_264f3f8d479301101cf79454836d43bd^id=acee88054ff61910f016a38021ad48c1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=acee88054ff61910f016a38021ad48c1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=acee88054ff61910f016a38021ad48c1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_nft">93f0e1e5471741101cf79454836d43d3</action_type>
+        <action_type_parent display_value="transfer1_nft">e6f86eac471305101cf79454836d432f</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">95de48054ff61910f016a38021ad4802</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>d4ee88054ff61910f016a38021ad488e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <ui_id>ca919e1e-0cda-4bd5-ad93-e2c8f883a04a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d4ee88054ff61910f016a38021ad488e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d4ee88054ff61910f016a38021ad488e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>14ee88054ff61910f016a38021ad4892</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD43b98ffbb15f4110d4e113392f3899ba","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD43b98ffbb15f4110d4e113392f3899ba":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD43b98ffbb15f4110d4e113392f3899ba.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD43b98ffbb15f4110d4e113392f3899ba\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a89dc803-622a-4d46-81fe-b6b5ecc4f1c1\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">1fb98ffb475f41101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d4ee88054ff61910f016a38021ad488e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>50ee88054ff61910f016a38021ad4892</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:50</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">1bf0e1e5471741101cf79454836d43d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d4ee88054ff61910f016a38021ad488e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>9cee88054ff61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="serial">d7f0e1e5471741101cf79454836d43e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d4ee88054ff61910f016a38021ad488e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>d4ee88054ff61910f016a38021ad4891</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:50</sys_updated_on>
+        <value>0.0.48706964</value>
+        <variable display_value="token_id">57f0e1e5471741101cf79454836d43df</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d4ee88054ff61910f016a38021ad488e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:50</sys_created_on>
+        <sys_id>d4ee88054ff61910f016a38021ad4892</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:50</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">d3f0e1e5471741101cf79454836d43db</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_93f0e1e5471741101cf79454836d43d3^id=d4ee88054ff61910f016a38021ad488e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d4ee88054ff61910f016a38021ad488e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d4ee88054ff61910f016a38021ad488e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="transfer1_ft">264f3f8d479301101cf79454836d43bd</action_type>
+        <action_type_parent display_value="transfer1_ft">caeb2e60475305101cf79454836d43bb</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Mission completed">95de48054ff61910f016a38021ad4802</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>f0ee88054ff61910f016a38021ad48f1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <ui_id>143de049-40db-4536-bfde-9f624f198cc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0ee88054ff61910f016a38021ad48f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f0ee88054ff61910f016a38021ad48f1</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>30ee88054ff61910f016a38021ad48f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-11-09 10:35:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD624f3f8d869301109b3f97f360bb38c0","$COCollectionField":["302a300506032b657003210055222d7cb45d3c6edf0f68b569e72ca1627327e75f92d99805252d3cab11657e"]},"complexObjectSchema":{"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD624f3f8d869301109b3f97f360bb38c0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"sign_with\",\"mandatory\":\"true\",\"child_name\":\"sign_with_child0\",\"uiUniqueId\":\"fe9c1744-a0b3-45df-a8f9-d160d7e22dc4\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD624f3f8d869301109b3f97f360bb38c0\",\"child_label\":\"sign_with_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6ac383ad-ce9e-4157-b7a7-9c6c59854b12\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="sign_with">a24f3f8d479301101cf79454836d43d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f0ee88054ff61910f016a38021ad48f1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>7cee88054ff61910f016a38021ad48f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:52</sys_updated_on>
+        <value>0.0.48654404</value>
+        <variable display_value="from">2e4f3f8d479301101cf79454836d43c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f0ee88054ff61910f016a38021ad48f1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>b8ee88054ff61910f016a38021ad48f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:52</sys_updated_on>
+        <value>0.0.48660653</value>
+        <variable display_value="token_id">624f3f8d479301101cf79454836d43c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f0ee88054ff61910f016a38021ad48f1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>f0ee88054ff61910f016a38021ad48f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:52</sys_updated_on>
+        <value>0.0.48660442</value>
+        <variable display_value="to">ae4f3f8d479301101cf79454836d43ca</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f0ee88054ff61910f016a38021ad48f1</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-25 12:25:52</sys_created_on>
+        <sys_id>f4ee88054ff61910f016a38021ad48f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-25 12:25:52</sys_updated_on>
+        <value>9000</value>
+        <variable display_value="amount">224f3f8d479301101cf79454836d43cf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_264f3f8d479301101cf79454836d43bd^id=f0ee88054ff61910f016a38021ad48f1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0ee88054ff61910f016a38021ad48f1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f0ee88054ff61910f016a38021ad48f1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=95de48054ff61910f016a38021ad4802"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_95de48054ff61910f016a38021ad4802"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_95de48054ff61910f016a38021ad4802"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_95de48054ff61910f016a38021ad4802"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_95de48054ff61910f016a38021ad4802"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>951d33744fb61910f016a38021ad48fd</sys_id>
+        <latest_snapshot>95de48054ff61910f016a38021ad4802</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch2-09-29-2022_10-07-2022_1443.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

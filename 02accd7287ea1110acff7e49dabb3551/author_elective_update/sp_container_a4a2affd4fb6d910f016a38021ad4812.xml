@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>web3_login - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="web3_login">4bcb72b14f76d910f016a38021ad48ad</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:46:26</sys_created_on>
+        <sys_id>a4a2affd4fb6d910f016a38021ad4812</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>web3_login - Container 2</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sp_container_a4a2affd4fb6d910f016a38021ad4812</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:46:26</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WEF">02accd7287ea1110acff7e49dabb3551</application>
+        <file_path/>
+        <instance_id>97db5c26db265918b847ac44d4961972</instance_id>
+        <instance_name>wefdemo</instance_name>
+        <name>sp_container_a4a2affd4fb6d910f016a38021ad4812</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>web3_login - Container 2</name><order>2</order><sp_page display_value="web3_login">4bcb72b14f76d910f016a38021ad48ad</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>nicola.attico</sys_created_by><sys_created_on>2022-10-28 11:46:26</sys_created_on><sys_id>a4a2affd4fb6d910f016a38021ad4812</sys_id><sys_mod_count>0</sys_mod_count><sys_name>web3_login - Container 2</sys_name><sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package><sys_policy/><sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope><sys_update_name>sp_container_a4a2affd4fb6d910f016a38021ad4812</sys_update_name><sys_updated_by>nicola.attico</sys_updated_by><sys_updated_on>2022-10-28 11:46:26</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>734250049</payload_hash>
+        <record_name>web3_login - Container 2</record_name>
+        <reverted_from/>
+        <source>8eaccd7287ea1110acff7e49dabb3552</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:46:26</sys_created_on>
+        <sys_id>20a2affd4fb6d910f016a38021ad4814</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1841e6a30970000001</sys_recorded_at>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:46:26</sys_updated_on>
+        <type>Container</type>
+        <update_guid>68a2affde4b6d910dd3428048f72ad13</update_guid>
+        <update_guid_history>68a2affde4b6d910dd3428048f72ad13:734250049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="web3_login - Container 2">b9a2ebfd4fb6d910f016a38021ad4865</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-28 11:46:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0efae18230524a4484d8aa997d63e389</sys_id>
+        <sys_metadata>a4a2affd4fb6d910f016a38021ad4812</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>web3_login - Container 2</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_scope_delete display_value="">69811ee011744740b082191058201000</sys_scope_delete>
+        <sys_update_name>sp_container_a4a2affd4fb6d910f016a38021ad4812</sys_update_name>
+        <sys_update_version display_value="sp_container_a4a2affd4fb6d910f016a38021ad4812">20a2affd4fb6d910f016a38021ad4814</sys_update_version>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-28 11:46:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

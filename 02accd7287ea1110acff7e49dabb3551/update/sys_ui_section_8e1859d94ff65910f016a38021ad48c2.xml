@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Interviews" section_id="8e1859d94ff65910f016a38021ad48c2" sys_domain="global" table="x_snc_wef_worker" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>2c3859d94ff65910f016a38021ad488f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview1</element>
+            <position>1</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>ac3859d94ff65910f016a38021ad488f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2</element>
+            <position>2</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>203859d94ff65910f016a38021ad4890</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>a03859d94ff65910f016a38021ad4890</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interviewer1</element>
+            <position>4</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>243859d94ff65910f016a38021ad4890</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interviewer2</element>
+            <position>5</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>a43859d94ff65910f016a38021ad4890</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:38</sys_created_on>
+            <sys_id>283859d94ff65910f016a38021ad4890</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Interviews</caption>
+            <header>false</header>
+            <name>x_snc_wef_worker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e1859d94ff65910f016a38021ad48c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_wef_worker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+            <sys_update_name>sys_ui_section_8e1859d94ff65910f016a38021ad48c2</sys_update_name>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

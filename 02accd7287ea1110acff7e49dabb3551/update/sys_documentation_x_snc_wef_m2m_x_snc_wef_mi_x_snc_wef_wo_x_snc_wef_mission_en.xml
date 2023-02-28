@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_snc_wef_mission" label="Missions" language="en" table="x_snc_wef_m2m_x_snc_wef_mi_x_snc_wef_wo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_snc_wef_mission</element>
+            <help/>
+            <hint/>
+            <label>Missions</label>
+            <language>en</language>
+            <name>x_snc_wef_m2m_x_snc_wef_mi_x_snc_wef_wo</name>
+            <plural>Missions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-25 14:05:07</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Missions</sys_name>
+            <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_wef_m2m_x_snc_wef_mi_x_snc_wef_wo_x_snc_wef_mission_en</sys_update_name>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-25 14:05:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

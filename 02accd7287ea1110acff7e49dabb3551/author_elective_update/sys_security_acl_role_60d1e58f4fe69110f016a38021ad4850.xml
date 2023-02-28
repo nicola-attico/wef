@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-19 13:20:21</sys_created_on>
+        <sys_id>60d1e58f4fe69110f016a38021ad4850</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_wef_skill_search.x_snc_wef.skill_search_user</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_security_acl display_value="x_snc_wef_skill_search">68d1e58f4fe69110f016a38021ad484d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_60d1e58f4fe69110f016a38021ad4850</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-19 13:20:21</sys_updated_on>
+        <sys_user_role display_value="x_snc_wef.skill_search_user" name="x_snc_wef.skill_search_user">40d1658f4fe69110f016a38021ad4891</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WEF">02accd7287ea1110acff7e49dabb3551</application>
+        <file_path/>
+        <instance_id>97db5c26db265918b847ac44d4961972</instance_id>
+        <instance_name>wefdemo</instance_name>
+        <name>sys_security_acl_role_60d1e58f4fe69110f016a38021ad4850</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>nicola.attico</sys_created_by><sys_created_on>2022-10-19 13:20:21</sys_created_on><sys_id>60d1e58f4fe69110f016a38021ad4850</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_wef_skill_search.x_snc_wef.skill_search_user</sys_name><sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package><sys_policy/><sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope><sys_security_acl display_value="x_snc_wef_skill_search">68d1e58f4fe69110f016a38021ad484d</sys_security_acl><sys_update_name>sys_security_acl_role_60d1e58f4fe69110f016a38021ad4850</sys_update_name><sys_updated_by>nicola.attico</sys_updated_by><sys_updated_on>2022-10-19 13:20:21</sys_updated_on><sys_user_role display_value="x_snc_wef.skill_search_user" name="x_snc_wef.skill_search_user">40d1658f4fe69110f016a38021ad4891</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-702330155</payload_hash>
+        <record_name>x_snc_wef_skill_search.x_snc_wef.skill_search_user</record_name>
+        <reverted_from/>
+        <source>8eaccd7287ea1110acff7e49dabb3552</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-19 13:20:21</sys_created_on>
+        <sys_id>a4d1e58f4fe69110f016a38021ad4890</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183f066f1550000001</sys_recorded_at>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-19 13:20:21</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ecd1e58f65e6911053c1349e6d44c08f</update_guid>
+        <update_guid_history>ecd1e58f65e6911053c1349e6d44c08f:-702330155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_wef_skill_search.x_snc_wef.skill_search_user">cd82e1cf4fe69110f016a38021ad48b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-19 13:23:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>396ee73998c44bdc98f2be1ae8ae5890</sys_id>
+        <sys_metadata>60d1e58f4fe69110f016a38021ad4850</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_wef_skill_search.x_snc_wef.skill_search_user</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_parent display_value="">68d1e58f4fe69110f016a38021ad484d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_scope_delete display_value="">69811ee011744740b082191058201000</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_60d1e58f4fe69110f016a38021ad4850</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_60d1e58f4fe69110f016a38021ad4850">a4d1e58f4fe69110f016a38021ad4890</sys_update_version>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-19 13:23:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

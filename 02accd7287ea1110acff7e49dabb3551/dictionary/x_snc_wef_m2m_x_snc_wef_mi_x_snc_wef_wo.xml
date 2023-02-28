@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="659568c54f3a1910f016a38021ad4821" label="x_snc_wef_m2m_Missions_Workers" max_length="40" name="x_snc_wef_m2m_x_snc_wef_mi_x_snc_wef_wo" type="collection">
+        <element attributes="encode_utf8=false" label="Missions" max_length="32" name="x_snc_wef_mission" reference="x_snc_wef_mission" type="reference"/>
+        <element attributes="encode_utf8=false" label="Workers" max_length="32" name="x_snc_wef_worker" reference="x_snc_wef_worker" type="reference"/>
+        <index name="index">
+            <element name="x_snc_wef_mission"/>
+        </index>
+        <index name="index2">
+            <element name="x_snc_wef_worker"/>
+        </index>
+    </element>
+</database>

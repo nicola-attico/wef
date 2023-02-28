@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">9e52a4e64f221110f016a38021ad4838</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-10-19 13:24:18</sys_created_on>
+        <sys_id>deb2e5cf4fe69110f016a38021ad483f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-10-19 13:24:18</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

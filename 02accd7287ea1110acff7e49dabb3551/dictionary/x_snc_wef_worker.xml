@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a47fd10f4fe69110f016a38021ad48f3" label="Worker" max_length="40" name="x_snc_wef_worker" type="collection">
+        <element label="Account id" max_length="50" name="account_id" type="string"/>
+        <element label="Interview1" max_length="40" name="interview1" type="glide_date_time"/>
+        <element label="Interview2" max_length="40" name="interview2" type="glide_date_time"/>
+        <element label="Interviewer1" max_length="32" name="interviewer1" reference="sys_user" type="reference"/>
+        <element label="Interviewer2" max_length="32" name="interviewer2" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready" sequence="10" value="ready"/>
+                <element inactive_on_update="false" label="Kyc'd" sequence="15" value="kyc"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="20" value="confirmed"/>
+                <element inactive_on_update="false" label="Not Confirmed" sequence="30" value="not_confirmed"/>
+            </choice>
+        </element>
+        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="interviewer1"/>
+        </index>
+        <index name="index2">
+            <element name="interviewer2"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

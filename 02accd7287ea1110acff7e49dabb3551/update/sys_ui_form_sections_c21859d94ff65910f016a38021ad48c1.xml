@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c21859d94ff65910f016a38021ad48c1" sys_domain="global" table="x_snc_wef_worker" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>861859d94ff65910f016a38021ad48c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_wef_worker" name="x_snc_wef_worker" sys_domain="global" view="Default view">c21859d94ff65910f016a38021ad48c1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_wef_worker" sys_domain="global" view="Default view">1289c0014ff61910f016a38021ad483b</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>821859d94ff65910f016a38021ad48c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_wef_worker" name="x_snc_wef_worker" sys_domain="global" view="Default view">c21859d94ff65910f016a38021ad48c1</sys_ui_form>
+            <sys_ui_section caption="Interviews" display_value="Interviews" name="x_snc_wef_worker" sys_domain="global" view="Default view">8e1859d94ff65910f016a38021ad48c2</sys_ui_section>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_wef_worker</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>nicola.attico</sys_created_by>
+            <sys_created_on>2022-10-26 12:24:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c21859d94ff65910f016a38021ad48c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_wef_worker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c21859d94ff65910f016a38021ad48c1</sys_update_name>
+            <sys_updated_by>nicola.attico</sys_updated_by>
+            <sys_updated_on>2022-10-26 12:24:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

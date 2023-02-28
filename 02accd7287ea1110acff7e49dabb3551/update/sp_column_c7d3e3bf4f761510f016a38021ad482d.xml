@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">8fd3e3bf4f761510f016a38021ad482a</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>eugene.chuvyrov</sys_created_by>
+        <sys_created_on>2022-11-03 16:59:38</sys_created_on>
+        <sys_id>c7d3e3bf4f761510f016a38021ad482d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="WEF" source="x_snc_wef">02accd7287ea1110acff7e49dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WEF">02accd7287ea1110acff7e49dabb3551</sys_scope>
+        <sys_update_name>sp_column_c7d3e3bf4f761510f016a38021ad482d</sys_update_name>
+        <sys_updated_by>eugene.chuvyrov</sys_updated_by>
+        <sys_updated_on>2022-11-03 16:59:38</sys_updated_on>
+    </sp_column>
+</record_update>

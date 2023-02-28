@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3db6084d4fb61910f016a38021ad4834" label="Preference" max_length="40" name="x_snc_wef_preference" type="collection">
+        <element label="Name" max_length="200" name="name" type="string"/>
+    </element>
+</database>
